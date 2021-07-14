@@ -28,7 +28,7 @@ class Appointment {
   created_at: Date;
 
   @UpdateDateColumn()
-  updatedt_at: Date;
+  updated_at: Date;
 }
 
 export default Appointment;
